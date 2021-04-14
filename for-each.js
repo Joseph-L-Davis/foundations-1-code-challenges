@@ -38,8 +38,10 @@ Output:
 */
 
 export function makeSpanishLanguageArray(arr){
-   arr.forEach(element => {
-        { name: nombre, type: tipo}
-    });
-
+    const spanglish = [];
+    arr.forEach( element => {
+        const { name: nombre, type: tipo } = element;
+        spanglish.push({nombre, tipo});
+    })
+    return spanglish
 }
