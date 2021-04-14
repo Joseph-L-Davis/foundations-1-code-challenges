@@ -37,8 +37,5 @@ Output:
 ]
 */
 
-export function makeSpanishLanguageArray(arr) {
-    const { type: tipo, name: nombre } = pets;
-    return pets;
-}
-
+export function makeSpanishLanguageArray(arr){
+    const { name: nombre, type: tipo } = arr}
