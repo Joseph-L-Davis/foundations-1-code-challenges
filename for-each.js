@@ -38,4 +38,8 @@ Output:
 */
 
 export function makeSpanishLanguageArray(arr){
-    const { name: nombre, type: tipo } = arr}
+   arr.forEach(element => {
+        { name: nombre, type: tipo}
+    });
+
+}
